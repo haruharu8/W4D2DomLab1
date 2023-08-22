@@ -1,0 +1,37 @@
+h1 {
+    text-align: center;
+    background: #CF0A0A;
+    background: -webkit-radial-gradient(circle farthest-corner at center center, #CF0A0A 0%, #B97CCF 100%);
+    background: -moz-radial-gradient(circle farthest-corner at center center, #CF0A0A 0%, #B97CCF 100%);
+    background: radial-gradient(circle farthest-corner at center center, #CF0A0A 0%, #B97CCF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+body {
+    background-image: url(./images/trollPic.png);
+    background-color: antiquewhite;
+    background-repeat: space repeat;
+    background-size: 300px;
+}
+
+.rickImage {
+    display: flex;
+    justify-content: center;
+}
+
+div.rickText {
+    display: flex;
+    justify-content: center;
+}
+
+.clickBox {
+    display: flex;
+    justify-content: center;
+}
+
+#paragraph {
+    border-color: slateblue;
+    text-shadow:  0 0 3px #FF0000, 0 0 5px #0000FF;
+    font-size: 40px;
+}
